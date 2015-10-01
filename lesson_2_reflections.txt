@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates the .git folder to hold version history, but doesn't commit anything.
