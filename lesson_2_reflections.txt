@@ -5,3 +5,7 @@ How is the staging area different from the working directory and the repository?
 you think it offers?
 Working directory is what's on the local machine. Staging area is what's ready to get committed.
 Having the staging area helps organize and give finer control to what's included in each commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can review exactly what you're commiting, using git add, and git diff, to review the changes 
+that are going into that commit.
