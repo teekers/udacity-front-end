@@ -1,2 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 It creates the .git folder to hold version history, but doesn't commit anything.
+
+How is the staging area different from the working directory and the repository? What value do 
+you think it offers?
+Working directory is what's on the local machine. Staging area is what's ready to get committed.
+Having the staging area helps organize and give finer control to what's included in each commit.
