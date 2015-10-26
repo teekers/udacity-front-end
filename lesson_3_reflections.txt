@@ -3,3 +3,14 @@ If you want to share or collaborate with other coders.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Better to pull manually so that you can keep track of what changes are coming in. If people are working simultaneously on a project, things may not be ready to merge until later.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks- when it's someone else's project and you want to create your own version without affecting original product
+Clone- copy entire repository, like from local to remote or vice versa. Used to sync up copies. 
+Branch- within repo, qwhen developing a new feature to eventually merge onto master
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+To keep track of how far local copy has moved since last pull. Both copies may diverge, so helpful to compare points of divergence.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Github, there would be less overhead of merging and keeping everyone's versions synced. But collaboration would be harder because there would be fewer, bigger merges less frequently, and more likely to break things. 
