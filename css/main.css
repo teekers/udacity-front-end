@@ -2,11 +2,11 @@
     color: #747704;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-h1, h2, h3, h4, p {
-    margin: 10px;  
-}
 
 h1{
     font-size: 48px;
@@ -21,6 +21,7 @@ h3 {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 
@@ -30,20 +31,17 @@ img {
 }
 
 .header {
+    text-align: right;
     border-bottom: 2px solid #BCBBBB;
     padding: 10px 0px 10px 0;
-}
-
-.header h1 {
-    text-align: right;
 }
 
 .subhead{
     font-size: 18px;
 }
-
+    
 .main {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .main a{
@@ -54,14 +52,20 @@ img {
 .section-head {
     color: #BCBBBB;
     text-align: left;
-    font-weight: 400;
+padding-top: 25px;
 }
 
 .work-element {
     text-align: center;
-    padding: 10px;
 }
 
-#workelements{
-    margin: 0 -10px 0 -10px;
+#left-element{
+    padding: 0px 10px 0 0;
+}
+
+#middle-element{
+    padding: 0 5px 0 5px;
+}
+#right-element{
+    padding: 0 0px 0px 10px;
 }
