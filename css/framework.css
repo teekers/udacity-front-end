@@ -18,7 +18,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    clear: both;
 }
 
 .col-1 {

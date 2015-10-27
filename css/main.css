@@ -1,5 +1,5 @@
 * {
-    color: #747704;
+    color: #1a5869;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin: 0;
@@ -22,6 +22,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 10px;
+    color: #759aa5;
 }
 
 
@@ -36,8 +37,18 @@ img {
     padding: 10px 0px 10px 0;
 }
 
-.subhead{
+.header h2{
     font-size: 18px;
+    text-transform: uppercase;
+}
+
+.logo{
+    text-align: left;
+}
+
+.header img{
+    max-height: 110px;
+ 
 }
     
 .main {
@@ -46,13 +57,13 @@ img {
 
 .main a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .section-head {
     color: #BCBBBB;
     text-align: left;
-padding-top: 25px;
+    padding: 25px 0 10px 0;
 }
 
 .work-element {
@@ -60,12 +71,12 @@ padding-top: 25px;
 }
 
 #left-element{
-    padding: 0px 10px 0 0;
+    padding: 0px 14px 0 0;
 }
 
 #middle-element{
-    padding: 0 5px 0 5px;
+    padding: 0 7px 0 7px;
 }
 #right-element{
-    padding: 0 0px 0px 10px;
+    padding: 0 0px 0px 14px;
 }
