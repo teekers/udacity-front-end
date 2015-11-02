@@ -20,3 +20,7 @@ body {
 .horiz-rule{
 	border-top: 3px solid #bcbbbb;
 }
+
+.page-bottom{
+	margin-bottom: 10px;
+}
