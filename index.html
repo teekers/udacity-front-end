@@ -3,52 +3,58 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tamar Kornblum</title>
-    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="grid">
-    <div class="header">
+<body>
+    <div class="container">
         <div class="row">
-            <div class="col-2 logo">
-                <img src="images/tk_headshot.jpg" alt="headshot photo">
+            <div class="col-md-4 logo">
+                <img class="img-responsive title-logo" src="images/tk_headshot.jpg" alt="headshot photo">
             </div>
-            <div class="col-4"></div>
-            <div class="col-6">
-                <h1>Tamar Kornblum</h1>
-                <h2>Front-End Ninja</h2>
+            <div class="col-md-8 text-right text-uppercase">
+                <h1 class="title-super text-thin">Tamar Kornblum</h1>
+                <h4>Front-End Ninja</h4>
             </div>
         </div>
-    </div>
-    <div class="main">
         <div class="row">
-            <div class="col-12">
-                <!--   original images from mockup was ~1345x570. 
+            <div class="col-md-12">
+                <hr class="horiz-rule">
+            </div>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--   original images from mockup was ~1345x570. 
                    Use: <img src="http://placehold.it/1345x570">  -->
-                <img src="images/sunrise.jpg" alt="camping pic">
+                    <img class="img-responsive" src="images/sunrise.jpg" alt="camping pic">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <h2 class="col-12 section-head">Featured Work</h2>
+            <div class="row">
+                <h2 class="col-md-12 text-muted">Featured Work</h2>
+            </div>
             <!--    original images from mockup were ~420x280. 
                     Use: <img src="http://placehold.it/420x280">  -->
-            <div class="col-4 work-element" id="left-element">
-                <img src="images/code.png" alt="code">
-                <h3>Code</h3>
-                <a href="http://tamarkornblum.com/resume/">http://tamarkornblum.com/resume/</a>
-            </div>
-            <div class="col-4 work-element" id="middle-element">
-                <img src="images/chard.jpg" alt="chard">
-                <h3>CSA</h3>
-                <a href="prospectheightscsa.org/">prospectheightscsa.org/</a>
-            </div>
-            <div class="col-4 work-element" id="right-element">
-                <img src="images/monkey.jpg" alt="monkey">
-                <h3>Monkeys</h3>
-                <a href="http://www.researchgate.net/profile/Tamar_Kornblum/">http://www.researchgate.net/profile/Tamar_Kornblum/</a>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/code.png" alt="code">
+                    <h3 class="text-uppercase">Code</h3>
+                    <a href="http://tamarkornblum.com/resume/">http://tamarkornblum.com/resume/</a>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/chard.jpg" alt="chard">
+                    <h3 class="text-uppercase">CSA</h3>
+                    <a href="http://prospectheightscsa.org/">http://prospectheightscsa.org/</a>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/monkey.jpg" alt="monkey">
+                    <h3 class="text-uppercase">RESEARCH</h3>
+                    <a href="http://www.researchgate.net/profile/Tamar_Kornblum/">http://www.researchgate.net/profile/Tamar_Kornblum/</a>
+                </div>
             </div>
         </div>
     </div>
