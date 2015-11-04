@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #747707
 }
@@ -17,10 +17,14 @@ body {
     max-height: 100px;
 }
 
-.horiz-rule{
+.horiz-rule {
 	border-top: 3px solid #bcbbbb;
 }
 
-.page-bottom{
-	margin-bottom: 10px;
+.footer {
+	margin-top: 20px;
+}
+
+.text-footer {
+	font-size: 10px;
 }
