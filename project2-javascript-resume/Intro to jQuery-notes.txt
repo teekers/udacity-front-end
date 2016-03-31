@@ -1,0 +1,99 @@
+Intro to jQuery
+
+*BASICS* 
+
+Selectors:
+$('tag')
+$('.class')
+$('#id')
+
+
+Include on site with: 
+jQuery official: <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+Google: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+Select elements: 
+- by tag (not useful): 
+	listElements = $('li');
+- by class:
+	articleItems = $('.article-item');
+- by ID: specific to single element
+	nav = $('#nav');
+
+
+Traversal:
+.parent(), .parents()
+.children(), .find()
+.siblings()
+
+Filters:
+- theH1 = articleList.siblings('h1')
+- theKids = articleList.find('*')  //returns all the children
+- theParents = articleList.parents('div')
+
+
+*THE TRICKS*
+
+get the first child:
+	item1 = navList.children().first();
+
+get the <a> tag
+	link = item1.find('a');
+
+toggle: turn on/off
+	myThing.toggleCLass('featured'); 
+
+next: go to next item in DOM
+	art3 = art2.next();
+
+attr: get and set attributes
+	value = myThing.attr('href')  //gets the href value
+	myThing.attr('href','#1') // sets href value to "#1"
+
+add CSS by modifying style property (not good for large scale)
+	var currentSize = articleItems.css("font-size")   //gets style property
+	articleItems.css("font-size","20px"); //sets style property
+
+pulling HTML and Text:
+	pageSection.html() // get or set complete HTML
+	pageSection.text() // get or set just the visible text, no tags
+	inputField.val() // like .text(), but for input and special fields
+
+.remove()
+.append(), .prepend()  // adds as last or first *child*
+.insertBefore(), .insertAfter()  // adds as *sibling*
+
+.each(function(){  }) //runs function on each instance of a DOM element (like for loop)
+
+
+jQuery functions only runs on document.ready (after the DOM has been loaded).
+useful tip: even if script is in the <head>, wrap it in a jQuery object to delay execution.
+-- function() would run before <body> loaded
+-- $(function()) would run at document.ready (after rest of DOM loaded)
+
+*EVENTS*
+
+in Chrome console: monitorEvents(elementToWatch)  (not in JS!)
+-- monitorEvents($('img')[0]); //to look at first img on page
+-- monitorEvents($("#udacityU")[0]); //still need [0]...?
+
+Event listeners:
+$('elementToWatch').on( event, function() { });
+event = 'keypress', 'mouseMove', etc 
+
+Examaple: on button press, button disappears and color changes
+$('#my-button').on('click',function(){
+    $(this).remove();
+    $('body').addClass('success');
+});
+
+When event callback function is called, "event" object contains useful info:
+$( 'article' ).on( 'click', function( evt ) {
+    $( evt.target ).css( 'background', 'red' ); //only change the clicked article, not all of them
+});
+
+Convenience methods: 
+.keypress(function(){  });// == shorthand for .on('keypress',function(){  })
+
+Event Delegation:
+listen for events in children (useful if element may not exist yet)
