@@ -1,0 +1,14 @@
+*Scope*
+- Lexical = Glocal scope vs. Local to function. Each *function* has its own lexical scope. (Curly braced if-statements are in global)
+
+If you refer to a variable before declaring it, it 'auto-declares' in global scope. Bad form.
+
+- Execution Context = availability of variables at runtime. In-memory scope vs. In-memory object. Looks for variables in local context first, then gets wider and wider to parents... global scope last.
+
+*Closures*
+
+A function (scope?) that remains available after functions have returned
+
+*'this' Keyword*
+
+like a regular parameter, but value binding different:
