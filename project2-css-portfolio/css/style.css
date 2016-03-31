@@ -1,0 +1,30 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #747707
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.title-super {
+    font-size: 60px
+}
+
+.title-logo {
+    margin-top: 20px;
+    max-height: 100px;
+}
+
+.horiz-rule {
+	border-top: 3px solid #bcbbbb;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.text-footer {
+	font-size: 10px;
+}
