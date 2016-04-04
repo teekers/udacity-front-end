@@ -1,0 +1,17 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+I've already completed later projects, but wanted to go back and see the "new" Project 0 and intro material. So from this particular unit I haven't learned much this time around. 
+
+- <figure> is a cool HTML5 tag!
+- Udacity Chrome extension is a nice feature
+- I'm excited that my Udacity progress is now easier to track; makes goal setting much easier
+
+Thanks for all the improvements!
